@@ -8,17 +8,29 @@
 /* page wide style start */
 body {
   font-size: 18px;
+  background-color: antiquewhite;
 }
 
 h1 {
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+h2 {
   text-align: center;
 }
 
 h3 {
   font-size: 24px;
 }
-
 /* page wide style end*/
+
+/* section style start */
+section {
+  padding: 20px 0;
+}
+/* section style end */
 
 /* image section style start */
 .image img {
@@ -39,22 +51,29 @@ h3 {
 .life {
   width: 80%;
   margin: 0 auto;
+  border-bottom: 3px solid black;
 }
 
 .life h2 {
   width: 75%;
-  text-align: center;
   border-bottom: 3px solid black;
   margin: 0 auto;
 }
 
 .timeline {
   margin: 0 auto;
+  padding-top: 10px;
   list-style: none;
 }
 
 .timeline li {
   margin: 10px 0;
+}
+
+.events {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 3px solid black;
 }
 
 .major-event h3 {
@@ -67,9 +86,16 @@ h3 {
   border-bottom: 2px solid black;
   border-right: 2px solid black;
   border-left: 2px solid black;
-  box-shadow: 0 0 4px 0;
+  box-shadow: 0 0 4px 0 black;
 }
 /* life section style end */
+
+/* final thoughts section style start */
+.final-thoughts {
+  width: 80%;
+  margin: 0 auto;
+}
+/* legacy section style end */
 
 /* media queries */
 @media screen and (min-width: 768px) {
