@@ -3,3 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.test {
+  border: 2px solid darkblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+.image img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.image .caption {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
