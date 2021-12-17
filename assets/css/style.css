@@ -1,36 +1,77 @@
+/* resetting the base */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.test {
-  border: 2px solid darkblue;
+/* page wide style start */
+body {
+  font-size: 18px;
 }
 
 h1 {
   text-align: center;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+/* page wide style end*/
+
+/* image section style start */
 .image img {
   display: block;
   width: 50%;
-  margin: 0 auto;
+  max-width: 350px;
+  margin: 10px auto 0px auto;
 }
 
 .image .caption {
   text-align: center;
+  width: 65%;
+  margin: 10px auto;
+}
+/* image section style end */
+
+/* life section style start */
+.life {
   width: 80%;
   margin: 0 auto;
 }
 
-.timeline h2 {
+.life h2 {
   width: 75%;
   text-align: center;
   border-bottom: 3px solid black;
   margin: 0 auto;
 }
 
-.timeline ul li {
+.timeline {
+  margin: 0 auto;
+  list-style: none;
+}
+
+.timeline li {
   margin: 10px 0;
+}
+
+.major-event h3 {
+  display: block;
+  margin: 20px auto 10px auto;
+  max-width: 300px;
+  min-width: 200px;
+  text-align: center;
+  padding: 5px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  box-shadow: 0 0 4px 0;
+}
+/* life section style end */
+
+/* media queries */
+@media screen and (min-width: 768px) {
+  /* around this point, move picture beside timeline */
 }
