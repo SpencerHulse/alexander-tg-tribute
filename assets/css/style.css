@@ -100,4 +100,30 @@ section {
 /* media queries */
 @media screen and (min-width: 768px) {
   /* around this point, move picture beside timeline */
+  body {
+    font-size: 20px;
+  }
+  
+  .flex-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .image {
+    margin: auto;
+  }
+
+  .image img {
+    min-width: 350px;
+  }
+
+  .life {
+    border: none;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
 }
