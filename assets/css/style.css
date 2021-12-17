@@ -24,3 +24,13 @@ h1 {
   margin: 0 auto;
 }
 
+.timeline h2 {
+  width: 75%;
+  text-align: center;
+  border-bottom: 3px solid black;
+  margin: 0 auto;
+}
+
+.timeline ul li {
+  margin: 10px 0;
+}
