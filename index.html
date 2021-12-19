@@ -9,28 +9,34 @@
 </head>
 <body>
   <header>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#timeline">Timeline</a>
-      <a href="#major-e1">Early Life</a>
-      <a href="#major-e2">Battle of Chaeronea</a>
-      <a href="#major-e3">King of Macedonia</a>
-      <a href="#major-e4">Battle of the Granicus</a>
-      <a href="#major-e5">Battle of Issus</a>
-      <a href="#major-e6">Siege of Tyre</a>
-      <a href="#major-e7">Alexandria</a>
-      <a href="#major-e8">King of Persia</a>
-      <a href="#major-e9">Proskynesis and Paranoia</a>
-      <a href="#major-e10">Alexander Kills Cleitus</a>
-      <a href="#major-e11">Marriage to Roxane</a>
-      <a href="#major-e12">Battle of Hydaspes River</a>
-      <a href="#major-e13">Marriages and Mutiny</a>
-      <a href="#major-e14">Death</a>
-      <a href="#legacy">Legacy</a>
-    </div>
-    <div class="open-nav-btn" onclick="openNav()">&#9776;</div>
+    <nav>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#major-e1">Early Life</a>
+        <a href="#major-e2">Battle of Chaeronea</a>
+        <a href="#major-e3">King of Macedonia</a>
+        <a href="#major-e4">Battle of the Granicus</a>
+        <a href="#major-e5">Battle of Issus</a>
+        <a href="#major-e6">Siege of Tyre</a>
+        <a href="#major-e7">Alexandria</a>
+        <a href="#major-e8">King of Persia</a>
+        <a href="#major-e9">Proskynesis and Paranoia</a>
+        <a href="#major-e10">Alexander Kills Cleitus</a>
+        <a href="#major-e11">Marriage to Roxane</a>
+        <a href="#major-e12">Battle of Hydaspes River</a>
+        <a href="#major-e13">Marriages and Mutiny</a>
+        <a href="#major-e14">Death</a>
+        <a href="#legacy">Legacy</a>
+      </div>
 
-    <h1>Alexander the Great<br />Undefeated King of Macedonia</h1>
+      <div class="open-nav-btn" onclick="openNav()">&#9776;</div>
+    </nav>
+
+    <div class="header-text">
+      <h1>Alexander the Great</h1>
+      <p>Undefeated King of Macedonia</p>
+    </div>
   </header>
   
   <div class="flex-container">
@@ -185,18 +191,10 @@
     <p>Although Alexander's racial fusion attempts ultimately failed, many of the lands he conquered still retained Greek influence. And of the over 70 new cities he founded, several still stand as cultural centers today.</p>
     <br />
     <p>Alexander was an explorer, a military general that stands among the greatest to have ever lived, and someone who opened the doors to a vast land and a bright future. While his time was short and his death the downfall of his kingdom, his legacy lives on. His title of "the Great" is truly well deserved.</p>
-    <br />
-    <p>If you wish to learn more about Alexander, you can turn to <a href="https://www.britannica.com/biography/Alexander-the-Great" target="_blank">Britannica's biography of Alexander the Great</a> or <a href="https://en.wikipedia.org/wiki/Alexander_the_Great" target="_blank">Alexader the Great's Wikipedia page</a>.</p>
   </section>
 
-  <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
+  <footer><p>If you wish to learn more about Alexander, you can turn to <a href="https://www.britannica.com/biography/Alexander-the-Great" target="_blank">Britannica's biography of Alexander the Great</a> or <a href="https://en.wikipedia.org/wiki/Alexander_the_Great" target="_blank">Alexader the Great's Wikipedia page</a>.</p></footer>
 
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-  </script>
+  <script src="./assets/js/nav.js"></script>
 </body>
 </html>
