@@ -11,3 +11,10 @@ function closeNav() {
 }
 
 var x = window.matchMedia("(max-width: 800px)")
+
+window.addEventListener("mouseup", function(event) {
+  var navigation = document.getElementById("mySidenav");
+  if (event.target != navigation) {
+    navigation.style.width = "0";
+  }
+});
