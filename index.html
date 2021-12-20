@@ -8,8 +8,12 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+
+  <!-- header -->
   <header>
+    <!-- navigation -->
     <nav>
+      <!-- side nav menu -->
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#timeline">Timeline</a>
@@ -29,24 +33,25 @@
         <a href="#major-e14">Death</a>
         <a href="#legacy">Legacy</a>
       </div>
-
+      <!-- button to open side nav menu -->
       <div class="open-nav-btn" onclick="openNav()">&#9776;</div>
-
+      <!-- button to return to top (min-width: 800 only) -->
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </nav>
-
+    <!-- text to introduce topic -->
     <div class="header-text">
       <h1>Alexander the Great</h1>
       <p>Undefeated King of Macedonia</p>
     </div>
   </header>
-  
+  <!-- flex container to adjust placement of img and timeline -->
   <div class="flex-container">
+    <!-- image and caption -->
     <section class="image">
       <img src="./assets/images/Alexander-the-Great-detail-painting-Porus-Charles.jpg" alt="an painting of Alexander the Great in battle">
       <div class="caption">A depiction of Alexander the Great from <i>Alexander and Porus</i> by Charles Le Brun</div>
     </section>
-
+    <!-- timeline -->
     <section id="timeline" class="life">
       <h2>Life of Alexander the Great</h2>
 
@@ -67,7 +72,7 @@
       </ul>
     </section>
   </div>
-
+  <!-- section of major events relating to the timeline -->
   <section class="events">
     <div id="major-e1" class="major-event">
       <h3>Early Life</h3>
@@ -185,7 +190,7 @@
       <p>In June of 323 B.C., Alexander the Great died at the age of 32. The cause of his death is ultimately unknown, but with no successor in sight, his death left a power vacuum that resulted in a bloody battle for control that ended with the crumbling of the empire he created.</p>
     </div>
   </section>
-
+  <!-- final thoughts on Alexander the Great -->
   <section id="legacy" class="final-thoughts">
     <h2>The Legacy of Alexander the Great</h2>
     <p>Alexander's life and accomplishments are still remembered today for a good reason. During his short rule, he conquered many lands, and he did it without losing a single battle. However, while his mastery of strategy and his exploits in war stand out, the lasting impact of his conquest goes beyond tales of victory.</p>
@@ -194,9 +199,9 @@
     <br />
     <p>Alexander was an explorer, a military general that stands among the greatest to have ever lived, and someone who opened the doors to a vast land and a bright future. While his time was short and his death the downfall of his kingdom, his legacy lives on. His title of "the Great" is truly well deserved.</p>
   </section>
-
+  <!-- footer that links to sources of more information -->
   <footer><p>If you wish to learn more about Alexander, you can turn to <a href="https://www.britannica.com/biography/Alexander-the-Great" target="_blank">Britannica's biography of Alexander the Great</a> or <a href="https://en.wikipedia.org/wiki/Alexander_the_Great" target="_blank">Alexader the Great's Wikipedia page</a>.</p></footer>
-
+  <!-- js file for navigation logic -->
   <script src="./assets/js/nav.js"></script>
 </body>
 </html>

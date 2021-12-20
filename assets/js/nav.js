@@ -16,11 +16,11 @@ function closeNav() {
   document.getElementById("mySidenav").style.borderRight = "none"
 }
 
-var x = window.matchMedia("(max-width: 800px)")
+let x = window.matchMedia("(max-width: 800px)")
 
 //closing the navigation meny when clicking outside of it or selecting an option
 window.addEventListener("mouseup", function(event) {
-  var navigation = document.getElementById("mySidenav");
+  let navigation = document.getElementById("mySidenav");
   if (event.target != navigation) {
     navigation.style.width = "0";
     navigation.style.borderRight = "none";
